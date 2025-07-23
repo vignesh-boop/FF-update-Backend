@@ -13,7 +13,8 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Lob;
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import java.sql.Date;
+
 import lombok.NoArgsConstructor;
 
 @Entity
