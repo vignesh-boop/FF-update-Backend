@@ -37,6 +37,8 @@ public class Product {
     
      @Column(name = "available")
     private boolean productAvailable;
+    
+    @Column(name = "quantity")
     private int stockQuantity;
 
     private String imageName;
