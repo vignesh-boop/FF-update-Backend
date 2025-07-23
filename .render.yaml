@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: ff-update-backend
+    env: docker
+    buildCommand: ./mvnw clean install
+    startCommand: ./mvnw spring-boot:run
+    envVars:
+      - key: JAVA_HOME
+        value: /opt/render/project/.java
+      - key: SPRING_DATASOURCE_URL
+        value: jdbc:postgresql://dpg-d1vq9aumcj7s73fl5pv0-a/ffupdate
+      - key: SPRING_DATASOURCE_USERNAME
+        value: ffupdate_user
+      - key: SPRING_DATASOURCE_PASSWORD
+        value: GJd19brlyXAUfQKewgDnk5U7gmxEejPq
