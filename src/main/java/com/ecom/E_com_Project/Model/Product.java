@@ -35,10 +35,10 @@ public class Product {
     @JsonFormat(pattern = "yyyy-MM-dd")
     private Date releaseDate;
     
-     @Column(name = "available")
-    private boolean productAvailable;
+     
     
-    @Column(name = "quantity")
+    
+    
     private int stockQuantity;
 
     private String imageName;
