@@ -23,7 +23,7 @@ import com.ecom.E_com_Project.Model.Product;
 import com.ecom.E_com_Project.Service.ProductService;
 
 @RestController
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://flowerfluxupdate.netlify.app/")
 @RequestMapping("/api")
 public class ProductController {
 	@Autowired
