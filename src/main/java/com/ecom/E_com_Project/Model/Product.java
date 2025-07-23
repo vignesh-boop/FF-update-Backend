@@ -1,8 +1,8 @@
 package com.ecom.E_com_Project.Model;
 
 import java.math.BigDecimal;
-import java.sql.Date;
-import jakarta.persistence.Column;
+
+
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
@@ -17,7 +17,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Data
+
 @AllArgsConstructor
 @NoArgsConstructor
 public class Product {
