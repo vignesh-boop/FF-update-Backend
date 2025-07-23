@@ -2,6 +2,7 @@ package com.ecom.E_com_Project.Model;
 
 import java.math.BigDecimal;
 import java.sql.Date;
+import jakarta.persistence.Column;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
@@ -33,7 +34,8 @@ public class Product {
 
     @JsonFormat(pattern = "yyyy-MM-dd")
     private Date releaseDate;
-
+    
+     @Column(name = "available")
     private boolean productAvailable;
     private int stockQuantity;
 
